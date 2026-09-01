@@ -1,0 +1,18 @@
+data
+.venv
+.venv-3.8
+logs
+__pycache__
+*.pyc
+dbt/target/
+*.zip
+*.csv
+*.parquet
+service-account/*.json
+.env
+
+# terraform
+*.tfstate
+*.tfstate.backup
+.terraform
+.terraform.lock.hcl
